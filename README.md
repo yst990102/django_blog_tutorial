@@ -1,5 +1,5 @@
 - 2023-08-30
-此仓库由stacklens大佬的[django_blog_tutorial](https://github.com/stacklens/django_blog_tutorial)fork而来。
+  - 此仓库由stacklens大佬的[django_blog_tutorial](https://github.com/stacklens/django_blog_tutorial)fork而来。
 这里我修改了md文件的链接，并离线保存了md里面的图片，防止原博客图床失效。
 
 ---
