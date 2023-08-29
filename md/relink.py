@@ -10,7 +10,7 @@ def rewrite_image_links(md_file):
         for img_url in image_urls:
             decoded_url = unquote(img_url)
             img_name = os.path.basename(decoded_url)
-            updated_url = f"![](./assets/{md_filename.replace('md', '')}/{img_name})"
+            updated_url = f"./assets/{md_filename.replace('md', '')}/{img_name}"
             content = content.replace(img_url, updated_url)
     
     with open(md_file, 'w', encoding='utf-8') as f:
